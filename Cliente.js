@@ -2,9 +2,6 @@ import {contaCorrente} from "./ContaCorrente.js";
 
 export class cliente{
     static numeroDeContas = 0;
-    nome;
-    _cpf;
-    contaCorrente = new contaCorrente;
 
     get cpf() {
         return this._cpf;
